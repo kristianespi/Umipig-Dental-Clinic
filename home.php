@@ -1,5 +1,8 @@
     <?php
 
+require_once 'db_connection.php';
+
+
     session_start();
     if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
         header("Location: admin_dashboard.php");
