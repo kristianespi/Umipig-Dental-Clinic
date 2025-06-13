@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $conn->close();
 }
 ?>
-
+// test comment (github)
 
 <form action="appointment_status.php" method="POST">
   <input type="hidden" name="appointment_id" value="123">
